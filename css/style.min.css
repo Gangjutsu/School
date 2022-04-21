@@ -106,7 +106,7 @@ h6 {
 }
 
 .no-webp .header__bg {
-    background: url('img/rectangle/ 41.png') no-repeat 0 0
+    background: url('../img/rectangle/ 41.png') no-repeat 0 0
 }
 
 .header__bg {
@@ -6616,9 +6616,13 @@ main {
 }
 
 .webp .header__bg {
-    background: url('img/rectangle/ 41.png') no-repeat 0 0
+    background-image: url('../img/rectangle/ 41.png');
+    background-repeat: no-repeat;
+    background-size: cover
 }
 
 .webp .header__bg {
-    background: url('/img/rectangle\ 41.png') no-repeat 0 0
+    background-image: url('../img/rectangle/ 41.png');
+    background-repeat: no-repeat;
+    background-size: cover
 }
