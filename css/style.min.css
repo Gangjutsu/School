@@ -48,7 +48,8 @@ html {
     font-size: 14px;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100% margin: 0;
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
 }
 
 button,
