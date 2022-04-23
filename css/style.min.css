@@ -2997,7 +2997,7 @@ h6 {
         margin-left: 43px;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        margin-top: 178px;
+        margin-top: 222px;
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center
@@ -4593,7 +4593,7 @@ h6 {
     }
 
     .header__menu.active {
-        top: 135px;
+        top: 0;
         width: 100vw
     }
 
@@ -4605,6 +4605,7 @@ h6 {
         text-align: center;
         padding-right: 0;
         padding-left: 10px;
+        margin-top: 140px;
         margin-left: 0;
         margin-right: 0
     }
@@ -5377,7 +5378,7 @@ h6 {
     }
 
     .header__menu.active {
-        top: 110px;
+        top: 0;
         width: 100vw
     }
 
@@ -5390,6 +5391,7 @@ h6 {
         margin-left: 0;
         padding-left: 0;
         padding-right: 0;
+        margin-top: 120px;
         margin-right: 0
     }
 
@@ -6112,7 +6114,7 @@ h6 {
     }
 
     .header__menu.active {
-        top: 98px;
+        top: 0;
         width: 100vw
     }
 
@@ -6140,7 +6142,7 @@ h6 {
     }
 
     .header__menu.active .menu__item a {
-        width: 230px;
+        width: 263px;
         padding: 10px
     }
 
