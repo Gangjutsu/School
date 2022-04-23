@@ -118,6 +118,7 @@ h6 {
     background: rgba(151, 151, 151, .6);
     height: 191px;
     position: absolute;
+    z-index: 2;
     width: 100%
 }
 
@@ -133,10 +134,12 @@ h6 {
 .header__logo {
     position: relative;
     margin-top: 16px;
+    z-index: ;
     margin-bottom: 30px
 }
 
 .header__logo img {
+
     max-width: 100%
 }
 
@@ -145,7 +148,7 @@ h6 {
 }
 
 .header__button {
-    z-index: 1
+    z-index: 2
 }
 
 .header__button .btn {
@@ -272,6 +275,8 @@ h6 {
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
+    position: relative;
+    z-index: 2;
     justify-content: space-between
 }
 
@@ -323,6 +328,7 @@ h6 {
     background-color: #000;
     height: 191px;
     position: absolute;
+    z-index: 2;
     width: 100%
 }
 
@@ -2895,6 +2901,7 @@ h6 {
     .header__logo {
         position: relative;
         left: 170px;
+        z-index: 2;
 
     }
 
@@ -2967,14 +2974,13 @@ h6 {
         background: rgba(151, 151, 151, .6);
         -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
         box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
-        top: 191px;
         left: 0;
         margin: 0 auto;
         border-radius: 0 0 20px 20px;
         -webkit-transition: .2s ease;
         -o-transition: .2s ease;
         transition: .2s ease;
-        z-index: 100;
+        z-index: 1;
         overflow: hidden
     }
 
@@ -2991,6 +2997,7 @@ h6 {
         margin-left: 43px;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        margin-top: 178px;
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center
