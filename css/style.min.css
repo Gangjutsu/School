@@ -2892,12 +2892,18 @@ h6 {
 }
 
 @media (max-width:1200px) {
+    .header__logo {
+        position: relative;
+        left: 170px;
+
+    }
+
     .header__burger {
         width: 60px;
         height: 60px;
         position: relative;
         top: 69px;
-        left: 0;
+        right: 170px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -2982,7 +2988,7 @@ h6 {
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
         flex-direction: row;
-        margin-left: 30px;
+        margin-left: 43px;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         -webkit-box-align: center;
@@ -3475,8 +3481,27 @@ h6 {
 }
 
 @media (max-width:993px) {
+    .header__burger {
+        position: relative;
+        right: 95px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        z-index: 2;
+
+    }
+
+
     .header__menu.active {
+
         width: 100%
+    }
+
+    .header__menu.active .menu__list {
+        margin-left: 18px;
     }
 
     .header__menu.active .menu__item {
@@ -3517,6 +3542,7 @@ h6 {
     .footer__social {
         -webkit-box-align: center;
         -ms-flex-align: center;
+        padding-top: 23px;
         align-items: center
     }
 
@@ -3533,10 +3559,16 @@ h6 {
         line-height: 90px
     }
 
+    .header__logo {
+        position: relative;
+        left: 95px;
+    }
+
     .header__logo img {
         width: 150px;
         margin-top: 37px;
         margin-bottom: 5px;
+
     }
 
     .section-one__cards {
@@ -3856,9 +3888,12 @@ h6 {
 
 @media (max-width:767px) {
     .header__menu.active .menu__list {
+        margin-left: auto;
+        margin-right: auto;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        margin-left: -10px;
         -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
         -webkit-box-orient: vertical;
@@ -3868,18 +3903,29 @@ h6 {
     }
 
     .header__menu.active .menu__item {
-        margin: 27px 0;
+
         color: #fff;
         text-transform: uppercase;
-        padding-right: 15px;
-        margin: 15px auto
+        padding-right: 0;
+
+
     }
 
     .header__menu.active .menu__item a {
         width: 530px;
         display: block;
         padding: 10px 0;
-        margin-left: 10px
+        margin-left: 0
+    }
+
+    .header__logo {
+        position: relative;
+        left: 10px;
+    }
+
+    .header__burger {
+        position: relative;
+        right: 10px;
     }
 
     .footer {
@@ -3890,7 +3936,7 @@ h6 {
 
     .footer__location {
         padding-left: 35px;
-        font-size: 19px
+        font-size: 23px
     }
 
     .footer__location ::before {
@@ -3899,7 +3945,7 @@ h6 {
 
     .footer__contact {
         margin-left: 0;
-        font-size: 18px;
+        font-size: 21px;
         padding-top: 10px
     }
 
@@ -3915,6 +3961,10 @@ h6 {
 
     .footer__logo {
         padding-top: 10px
+    }
+
+    .footer__logo img {
+        width: 150px;
     }
 
     .slider-item__content {
@@ -4504,62 +4554,40 @@ h6 {
 }
 
 @media (max-width:580px) {
-    .header__logo img {
-        width: 78px;
-        height: 57px;
-        margin-top: 0;
+    .header__logo {
+        left: 0;
+        width: 115px;
+        top: -20px
     }
 
     .header__burger {
-        width: 40px;
-        height: 40px;
         position: relative;
         z-index: 2;
-    }
-
-    .header__burger span:first-child {
-        display: block;
-        width: 30px;
-        height: 3px;
-        position: relative;
-        top: 9px;
-        left: 5px;
-    }
-
-    .header__burger span:nth-child(2) {
-        display: block;
-        width: 24px;
-        height: 3px;
-        position: relative;
-        top: 18px;
-        left: 11px;
-    }
-
-    .header__burger span:last-child {
-        display: block;
-        width: 18px;
-        height: 3px;
-        position: relative;
-        top: 27px;
-        left: 17px;
+        right: 0;
+        top: 40px;
     }
 
     .header__button .btn {
         position: relative;
         font-size: 19px;
         right: 5px;
-        top: 5px
+        top: -25px
+    }
+
+    .header__line {
+        height: 135px;
     }
 
     .header .header-btn {
         position: relative;
         font-size: 19px;
         right: 5px;
-        top: 5px
+        top: -30px
     }
 
     .header__menu.active {
-        width: 100%
+        top: 135px;
+        width: 100vw
     }
 
     .header__menu.active .menu__list {
@@ -4568,15 +4596,19 @@ h6 {
         display: flex;
         position: relative;
         text-align: center;
+        padding-right: 0;
+        padding-left: 10px;
         margin-left: 0;
         margin-right: 0
     }
 
     .header__menu.active .menu__item {
-        margin: 27px 0;
+
         color: #fff;
         text-transform: uppercase;
         padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
         margin-top: 20px;
         margin-bottom: 0;
         display: -webkit-box;
@@ -4585,7 +4617,7 @@ h6 {
     }
 
     .header__menu.active .menu__item a {
-        width: 400px;
+        width: 374px;
         padding: 10px
     }
 
@@ -4596,13 +4628,13 @@ h6 {
     }
 
     .footer__location {
-        font-size: 13px;
+        font-size: 14px;
         margin-left: 0
     }
 
     .footer__contact {
-        font-size: 13px;
-        padding-top: 40px
+        font-size: 14px;
+        padding-top: 20px
     }
 
     .footer__social {
@@ -4612,8 +4644,8 @@ h6 {
 
     .footer__social img {
         padding: 20px 20px 0 0;
-        width: 70px;
-        height: 70px
+        width: 55px;
+        height: 55px
     }
 
     .footer__logo {
@@ -4623,7 +4655,7 @@ h6 {
 
     .footer__logo img {
         width: 130px;
-        height: 130px
+
     }
 
     .section__header .header__title {
@@ -5297,37 +5329,49 @@ h6 {
 
 @media (max-width:425px) {
     .header__logo {
-        width: 100px;
+        width: 91px;
         height: 100px;
-        top: 48px
+        left: -10px;
+        padding: 0;
+        top: -30px;
     }
 
     .header__button .btn {
         position: relative;
-        font-size: 13px;
+        font-size: 14px;
         right: 5px;
-        top: 5px;
+        top: -35px;
         padding: 0
     }
 
+    .header__line {
+        height: 110px;
+    }
+
+    .header__burger {
+        right: -10px;
+        top: 25px;
+    }
+
     .header__button .btn a {
-        padding: 25px 8px
+        padding: 22px 9px
     }
 
     .header .header-btn {
         position: relative;
         font-size: 13px;
         right: 5px;
-        top: 5px;
+        top: -35px;
         padding: 0
     }
 
     .header .header-btn a {
-        padding: 25px 8px
+        padding: 22px 9px
     }
 
     .header__menu.active {
-        width: 100%
+        top: 110px;
+        width: 100vw
     }
 
     .header__menu.active .menu__list {
@@ -5337,14 +5381,18 @@ h6 {
         position: relative;
         text-align: center;
         margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
         margin-right: 0
     }
 
     .header__menu.active .menu__item {
-        margin: 27px 0;
+        margin-top: 27px;
         color: #fff;
         text-transform: uppercase;
         padding-right: 0;
+        padding-left: 0;
+        margin-left: 0;
         margin-top: 20px;
         margin-bottom: 0;
         display: -webkit-box;
@@ -5365,14 +5413,13 @@ h6 {
     }
 
     .footer__location {
-        font-size: 17px;
+        font-size: 23px;
         min-width: 100%;
         text-align: left;
         margin-left: 0
     }
 
     .footer__contact {
-        min-width: 100%;
         font-size: 17px;
         padding-top: 10px;
         text-align: left
@@ -5382,21 +5429,22 @@ h6 {
         padding: 0;
         display: -webkit-box;
         display: -ms-flexbox;
+
         display: flex
     }
 
     .footer__social img {
-        width: 80px;
+        width: 108px;
         height: 80px
     }
 
     .footer__logo {
         min-width: 100%;
-        text-align: left
+        text-align: left;
     }
 
     .footer__logo img {
-        width: 230px;
+        width: 330px;
         height: 230px
     }
 
@@ -5936,11 +5984,93 @@ h6 {
 }
 
 @media (max-width:320px) {
+    .header__burger {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        top: 20px;
+        right: -10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        z-index: 2;
+        background-color: #ffd600;
+        border-radius: 100%
+    }
+
+    .header__burger span:first-child {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #000;
+        position: relative;
+        top: 12px;
+        left: 9px;
+        -webkit-transition: .1s ease .1s;
+        -o-transition: .1s ease .1s;
+        transition: .1s ease .1s
+    }
+
+    .header__burger span:nth-child(2) {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: #000;
+        position: absolute;
+        top: 23px;
+        left: 14px;
+        -webkit-transition: .1s ease .1s;
+        -o-transition: .1s ease .1s;
+        transition: .1s ease .1s
+    }
+
+    .header__burger span:last-child {
+        display: block;
+        width: 18px;
+        height: 3px;
+        background-color: #000;
+        position: absolute;
+        top: 34px;
+        left: 21px;
+        -webkit-transition: .1s ease .1s;
+        -o-transition: .1s ease .1s;
+        transition: .1s ease .1s
+    }
+
+    .header__burger.active span:first-child {
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        top: 24px;
+        width: 30px;
+        left: 8px
+    }
+
+    .header__burger.active span:last-child {
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        top: 24px;
+        width: 30px;
+        left: 8px;
+    }
+
+    .header__burger.active span:nth-child(2) {
+        display: none;
+    }
+
+    .header__line {
+        height: 98px;
+    }
+
     .header__button .btn {
         position: relative;
-        font-size: 13px;
+        font-size: 18px;
         right: 5px;
-        top: 5px;
+        top: -55px;
         margin-right: 10px;
         margin-top: 65px
     }
@@ -5951,25 +6081,32 @@ h6 {
 
     .header .header-btn {
         position: relative;
-        font-size: 13px;
+        font-size: 18px;
         right: 5px;
-        top: 5px;
+        top: -55px;
         margin-right: 10px;
         margin-top: 65px
     }
 
     .header .header-btn a {
-        padding: 15px 3px
+        padding: 15px 2px
     }
 
     .header__logo {
+        height: 100px;
+        top: -55px
+    }
+
+
+    .header__logo img {
         width: 100px;
         height: 100px;
-        top: 48px
+
     }
 
     .header__menu.active {
-        width: 100%
+        top: 98px;
+        width: 100vw
     }
 
     .header__menu.active .menu__list {
@@ -5979,6 +6116,7 @@ h6 {
         position: relative;
         text-align: center;
         margin-left: 0;
+        padding-left: 0;
         margin-right: 0
     }
 
@@ -6007,19 +6145,19 @@ h6 {
 
     .footer__location {
         text-align: left;
-        min-width: 100%;
+
         font-size: 16px
     }
 
     .footer__contact {
-        font-size: 16px;
+        font-size: 15px;
         padding-top: 10px;
         text-align: left;
-        min-width: 100%
+
+
     }
 
     .footer__social {
-        min-width: 100%;
         padding: 0;
         -webkit-box-align: center;
         -ms-flex-align: center;
@@ -6030,7 +6168,12 @@ h6 {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        margin-left: -15px
+
+    }
+
+    .footer__social img {
+        width: 110px;
+        margin-left: -10px;
     }
 
     .footer__logo {
