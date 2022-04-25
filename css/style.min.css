@@ -3004,7 +3004,7 @@ h6 {
     }
 
     .header__menu.active .menu__item {
-        margin: 27px 0;
+
         color: #fff;
         text-transform: uppercase;
         padding-right: 15px;
@@ -3512,16 +3512,18 @@ h6 {
     }
 
     .header__menu.active .menu__item {
-        margin: 27px 0;
+
         color: #fff;
         text-transform: uppercase;
         padding-right: 15px;
-        margin: 15px auto
+        margin: 15px auto 15px auto;
+
     }
 
     .header__menu.active .menu__item a {
-        width: 350px;
+        width: 340px;
         display: block;
+
         padding: 10px 0
     }
 
@@ -3910,7 +3912,7 @@ h6 {
     }
 
     .header__menu.active .menu__item {
-
+        margin: 5px auto 10px auto;
         color: #fff;
         text-transform: uppercase;
         padding-right: 0;
@@ -5998,7 +6000,7 @@ h6 {
         height: 50px;
         position: relative;
         top: 20px;
-        right: -10px;
+        right: 4px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -6055,7 +6057,7 @@ h6 {
         transform: rotate(45deg);
         top: 24px;
         width: 30px;
-        left: 8px
+        left: 10px
     }
 
     .header__burger.active span:last-child {
@@ -6064,7 +6066,7 @@ h6 {
         transform: rotate(-45deg);
         top: 24px;
         width: 30px;
-        left: 8px;
+        left: 10px;
     }
 
     .header__burger.active span:nth-child(2) {
@@ -6078,7 +6080,7 @@ h6 {
     .header__button .btn {
         position: relative;
         font-size: 18px;
-        right: 5px;
+        right: 14px;
         top: -55px;
         margin-right: 10px;
         margin-top: 65px
@@ -6126,16 +6128,19 @@ h6 {
         text-align: center;
         margin-left: 0;
         padding-left: 0;
+        margin-top: 100px;
         margin-right: 0
     }
 
     .header__menu.active .menu__item {
-        margin: 27px 0;
+
         color: #fff;
         text-transform: uppercase;
         padding-right: 0;
         margin-top: 20px;
         margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex
@@ -6143,7 +6148,8 @@ h6 {
 
     .header__menu.active .menu__item a {
         width: 263px;
-        padding: 10px
+        font-size: 20px;
+        padding: 5px 0 5px 0;
     }
 
     .footer {
