@@ -58,6 +58,43 @@ textarea {
     font-family: inherit
 }
 
+::-webkit-input-placeholder {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #000
+}
+
+:-moz-placeholder {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #000 opacity: 1;
+}
+
+::-moz-placeholder {
+    background: none;
+    border: none;
+    opacity: 1;
+    border-bottom: 1px solid #000
+}
+
+:-ms-input-placeholder {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #000
+}
+
+::-ms-input-placeholder {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #000
+}
+
+::placeholder {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #000
+}
+
 input {
     border: none;
     background: none;
