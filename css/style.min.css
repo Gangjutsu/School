@@ -54,9 +54,14 @@ html {
 }
 
 button,
-input,
 textarea {
     font-family: inherit
+}
+
+input {
+    border: none;
+    background: none;
+    border-bottom: 1px solid #000;
 }
 
 input::-ms-clear {
