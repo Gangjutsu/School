@@ -1800,7 +1800,8 @@ h6 {
 }
 
 .content-form .content-form__form input[type=text] {
-    background: 0 0;
+    background: none;
+    border: none;
     border-bottom: 1px solid #000;
     margin-top: 112px;
     font-size: 36px;
@@ -1809,7 +1810,8 @@ h6 {
 }
 
 .content-form .content-form__form input[type=tel] {
-    background: 0 0;
+    background: none;
+    border: none;
     border-bottom: 1px solid #000;
     margin-top: 100px;
     font-size: 36px;
