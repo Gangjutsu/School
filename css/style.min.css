@@ -53,46 +53,87 @@ html {
 
 }
 
+::-webkit-ibutton {
+    color: #000;
+    border: none;
+
+}
+
+:-moz-button {
+
+    color: #000;
+    border: none;
+    opacity: 1;
+}
+
+::-moz-button {
+    color: #000;
+    border: none;
+    opacity: 1;
+
+}
+
+:-ms-button {
+    border: none;
+    color: #000;
+
+}
+
+::-ms-button {
+    border: none;
+    color: #000;
+
+}
+
+button {
+    color: #000;
+    background: none;
+    border: none;
+}
+
+
+
 button,
 textarea {
-    font-family: inherit
+    font-family: inherit;
+    color: #000;
 }
+
 
 ::-webkit-input-placeholder {
     background: none;
     border: none;
-    border-bottom: 1px solid #000
+
 }
 
 :-moz-placeholder {
     background: none;
     border: none;
-    border-bottom: 1px solid #000 opacity: 1;
+    opacity: 1;
 }
 
 ::-moz-placeholder {
     background: none;
     border: none;
     opacity: 1;
-    border-bottom: 1px solid #000
+
 }
 
 :-ms-input-placeholder {
     background: none;
     border: none;
-    border-bottom: 1px solid #000
+
 }
 
 ::-ms-input-placeholder {
     background: none;
     border: none;
-    border-bottom: 1px solid #000
+
 }
 
 ::placeholder {
     background: none;
     border: none;
-    border-bottom: 1px solid #000
 }
 
 input {
@@ -176,7 +217,7 @@ h6 {
 .header__logo {
     position: relative;
     margin-top: 16px;
-    z-index: ;
+    z-index: 4;
     margin-bottom: 30px
 }
 
