@@ -96,8 +96,8 @@ textarea {
     font-family: inherit;
 }
 
-input[type=text],
-input[type=tel] {
+input,
+textarea {
     -webkit-appearance: none;
 }
 
