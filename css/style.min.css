@@ -96,6 +96,10 @@ textarea {
     font-family: inherit;
 }
 
+input[type=text],
+input[type=tel] {
+    -webkit-appearance: none;
+}
 
 :-webkit-input {
     background: none;
