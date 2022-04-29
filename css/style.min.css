@@ -53,7 +53,7 @@ html {
 
 }
 
-::-webkit-ibutton {
+::-webkit-button {
     color: #000;
     border: none;
 
@@ -91,15 +91,19 @@ button {
 }
 
 
-
 button,
 textarea {
     font-family: inherit;
-    color: #000;
 }
 
 
 ::-webkit-input-placeholder {
+    background: none;
+    border: none;
+
+}
+
+:-webkit-input-placeholder {
     background: none;
     border: none;
 
