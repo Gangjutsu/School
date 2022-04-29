@@ -116,6 +116,7 @@ textarea {
 ::-webkit-input-placeholder {
     background: none;
     border: none;
+    appearance: none;
 
 }
 
