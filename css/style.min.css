@@ -104,28 +104,28 @@ textarea {
 :-webkit-input {
     background: none;
     border: none;
-    appearance: none;
+    -webkit-appearance: none;
 
 }
 
 ::-webkit-input {
     background: none;
     border: none;
-    appearance:none;
+    -webkit-appearance:none;
 
 }
 
 ::-webkit-input-placeholder {
     background: none;
     border: none;
-    appearance: none;
+    -webkit-appearance: none;
 
 }
 
 :-webkit-input-placeholder {
     background: none;
     border: none;
-    appearance:none;
+    -webkit-appearance: none;
 
 }
 
@@ -157,13 +157,14 @@ textarea {
 ::placeholder {
     background: none;
     border: none;
-    appearance: none;
+    -webkit-appearance: none;
 }
 
 input {
     border: none;
     background: none;
     border-bottom: 1px solid #000;
+    -webkit-appearance: none;
 }
 
 input::-ms-clear {
