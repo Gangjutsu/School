@@ -110,6 +110,7 @@ textarea {
 ::-webkit-input {
     background: none;
     border: none;
+    appearance:none;
 
 }
 
@@ -123,6 +124,7 @@ textarea {
 :-webkit-input-placeholder {
     background: none;
     border: none;
+    appearance:none;
 
 }
 
@@ -154,6 +156,7 @@ textarea {
 ::placeholder {
     background: none;
     border: none;
+    appearance: none;
 }
 
 input {
