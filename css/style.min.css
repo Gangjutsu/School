@@ -97,6 +97,18 @@ textarea {
 }
 
 
+:-webkit-input {
+    background: none;
+    border: none;
+
+}
+
+::-webkit-input {
+    background: none;
+    border: none;
+
+}
+
 ::-webkit-input-placeholder {
     background: none;
     border: none;
