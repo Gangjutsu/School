@@ -52,10 +52,6 @@ html {
     -webkit-text-size-adjust: 100%;
 
 }
-input[type=text],input[type=tel]{
-  -webkit-appearance: none;
- 
-}
 
 ::-webkit-button {
     color: #000;
@@ -64,7 +60,6 @@ input[type=text],input[type=tel]{
 }
 
 :-moz-button {
-
     color: #000;
     border: none;
     opacity: 1;
@@ -110,67 +105,26 @@ textarea {
 :-webkit-input {
     background: none;
     border: none;
-    -webkit-appearance: none;
-
 }
 
 ::-webkit-input {
     background: none;
     border: none;
-    -webkit-appearance:none;
 
-}
-
-::-webkit-input-::placeholder {
-    background: none;
-    border: none;
-    -webkit-appearance: none;
-
-}
-
-:-webkit-input-placeholder {
-    background: none;
-    border: none;
-    -webkit-appearance: none;
-
-}
-
-:-moz-placeholder {
-    background: none;
-    border: none;
-    opacity: 1;
-}
-
-::-moz-placeholder {
-    background: none;
-    border: none;
-    opacity: 1;
-
-}
-
-:-ms-input-placeholder {
-    background: none;
-    border: none;
-
-}
-
-::-ms-input-placeholder {
-    background: none;
-    border: none;
 
 }
 
 ::placeholder {
     background: none;
     border: none;
-    -webkit-appearance: none;
+
 }
 
 input {
     border: none;
     background: none;
     border-bottom: 1px solid #000;
-    -webkit-appearance: none;
+
 }
 
 input::-ms-clear {
