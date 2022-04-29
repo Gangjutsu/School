@@ -52,6 +52,9 @@ html {
     -webkit-text-size-adjust: 100%;
 
 }
+input[type=text],input[type=tel]{
+  -webkit-appearance: none;
+}
 
 ::-webkit-button {
     color: #000;
