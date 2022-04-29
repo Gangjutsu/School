@@ -104,6 +104,7 @@ textarea {
 :-webkit-input {
     background: none;
     border: none;
+    appearance: none;
 
 }
 
