@@ -1352,7 +1352,7 @@ h6 {
     font-size: 22px;
     font-weight: 400;
     line-height: 24.51px;
-    padding-top: 13px
+    padding-top: 0
 }
 
 .benefits__list {
@@ -1366,7 +1366,7 @@ h6 {
 }
 
 .benefits__buttons {
-    margin-top: 65px;
+    margin-top: 24px;
     margin-bottom: 80px
 }
 
