@@ -1036,13 +1036,6 @@ h6 {
   border-radius: 20px;
 }
 
-.slider-school__line {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-}
-
 .slider-school__slide-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1117,12 +1110,7 @@ h6 {
   margin-top: 30px;
 }
 
-.slider-school-two__line {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-}
+
 
 .slider-school-two__slide-item {
   display: -webkit-box;
@@ -1165,13 +1153,6 @@ h6 {
   border-radius: 20px;
   margin: 0 auto;
   max-height: 0;
-}
-
-.slider-school-three__line {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
 }
 
 .slider-school-three__slide-item {
