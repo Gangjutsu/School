@@ -552,6 +552,15 @@ h6 {
     justify-content: space-between
 }
 
+.section-course__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
 .section-one__card {
     max-width: 306px;
     background-color: #ffd600;
@@ -1680,6 +1689,7 @@ h6 {
 
 .section-course .course-title {
     margin-top: 49px;
+    font-size: 20px;
     padding: 0 5px
 }
 
@@ -1687,13 +1697,14 @@ h6 {
     margin-bottom: 58px
 }
 
-.section-course .course-image {
-    padding-left: 15px;
-    padding-right: 30px
+.section-course .course-image img {
+    margin: 0 auto;
 }
 
 .section-course .course-card {
+    min-width: 313px;
     background-color: #ffbe35;
+    border-radius: 20px;
     margin-bottom: 111px
 }
 
@@ -1710,6 +1721,12 @@ h6 {
 .section-course li,
 .section-course ul {
     list-style: inside
+}
+
+.course-image {
+    max-width: 279px;
+    height: 203px;
+    padding-top: 0px;
 }
 
 .section-course .card__discription-list {
@@ -2670,9 +2687,21 @@ h6 {
         position: relative;
     }
 
+    .section-one__card .course-card {
+        min-width: 282px;
+        margin-left: 15px;
+        position: relative;
+    }
+
+
+
+    .section-course .course-title {
+        margin-top: 25px;
+    }
+
     .card__image {
-        max-width: 240px;
-        min-height: 250px;
+        max-width: 279px;
+        min-height: 203px;
     }
 
     .card__title {
@@ -3263,6 +3292,8 @@ h6 {
         position: relative;
     }
 
+    .section-one__card .course-card {}
+
     .card__image {
         max-width: 220px;
         min-height: 240px;
@@ -3773,6 +3804,10 @@ h6 {
 
     .section-teacher-nadia__snapshot img {
         max-width: 100%
+    }
+
+    .section-course .images-course img {
+        width: 145px;
     }
 }
 
@@ -4981,6 +5016,10 @@ h6 {
 
     .section-teacher-nadia__snapshot img {
         max-width: 100%
+    }
+
+    .section-course .images-course img {
+        width: 90px;
     }
 }
 
@@ -6825,6 +6864,10 @@ h6 {
         font-size: 45px;
         line-height: 45px
     }
+
+    .section-course .images-course img {
+        width: 75px;
+    }
 }
 
 @media (max-width:320px) {
@@ -7759,6 +7802,10 @@ h6 {
     .content-teachers__sub-title-four {
         margin-top: -20px;
         font-size: 13px
+    }
+
+    .section-course .images-course img {
+        width: 65px;
     }
 }
 
