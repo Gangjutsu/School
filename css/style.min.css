@@ -2057,6 +2057,7 @@ h6 {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    margin-top: -10px;
     font-size: 96px;
     font-weight: 700;
     padding-top: 68px;
@@ -2104,20 +2105,24 @@ h6 {
     font-size: 24px;
     font-weight: 400;
     line-height: 32.68px;
-    margin-left: 25px
+
 }
 
 .skills-vocal__discr {
-    margin-left: -25px
+    margin-top: 20px;
+    line-height: 0;
+    margin-left: 13px
 }
 
 .skills-vocal__list {
+    margin-top: 0;
     color: #fff
 }
 
 .skills-vocal__images img {
-    padding-left: 70px;
-    max-width: 100%
+    margin-left: 70px;
+    height: 250px;
+    width: 280px;
 }
 
 .teachers-vocal {
@@ -2183,8 +2188,9 @@ h6 {
     -ms-flex-align: center;
     align-items: center;
     font-size: 96px;
+    margin-top: -10px;
     font-weight: 700;
-    padding-top: 68px;
+    padding-top: 116px;
     margin-bottom: 86px
 }
 
@@ -2226,14 +2232,15 @@ h6 {
 
 .skills-piano__text {
     color: #fff;
-    font-size: 19px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 32.68px;
-    margin-left: 25px
 }
 
 .skills-piano__discr {
-    margin-left: -25px
+    margin-top: 20px;
+    line-height: 0;
+    margin-left: 13px
 }
 
 .skills-piano__list {
@@ -2241,8 +2248,9 @@ h6 {
 }
 
 .skills-piano__images img {
-    padding-left: 70px;
-    max-width: 100%
+    margin-left: 70px;
+    height: 250px;
+    width: 263px;
 }
 
 .teachers-piano {
@@ -2307,6 +2315,7 @@ h6 {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    margin-top: -10px;
     font-size: 96px;
     font-weight: 700;
     padding-top: 68px;
@@ -2436,6 +2445,7 @@ h6 {
     font-size: 96px;
     font-weight: 700;
     padding-top: 68px;
+    margin-top: -10px;
     margin-bottom: 86px
 }
 
@@ -3794,12 +3804,14 @@ h6 {
     }
 
     .skills-vocal__text {
-        font-size: 18px
+        line-height: 28px;
+        font-size: 22px
     }
 
     .skills-vocal__images img {
-        padding-left: 20px;
-        max-width: 100%
+        margin-left: 32px;
+        width: 230px;
+        height: 230px;
     }
 
     .skills-piano__text {
@@ -3807,8 +3819,9 @@ h6 {
     }
 
     .skills-piano__images img {
-        padding-left: 20px;
-        max-width: 100%
+        margin-left: 70px;
+        height: 250px;
+        width: 280px;
     }
 
     .skills-guitar__text {
@@ -4176,10 +4189,12 @@ h6 {
     }
 
     .skills-vocal__text {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-right: 50px;
         font-size: 28px;
-        padding-left: 10px;
-        margin: 0 auto;
-        margin-top: 30px
+
     }
 
     .skills-vocal__images {
@@ -4193,8 +4208,7 @@ h6 {
     }
 
     .skills-vocal__images img {
-        padding-left: 20px;
-        max-width: 100%
+        width: 283px;
     }
 
     .teachers-vocal__image img {
@@ -4922,9 +4936,11 @@ h6 {
     }
 
     .skills-vocal__images img {
+        width: 230px;
+        height: 230px;
         padding-left: 20px;
         margin: 0 auto;
-        padding-top: 20px
+
     }
 
     .skills-vocal__skill {
@@ -4936,10 +4952,10 @@ h6 {
     }
 
     .skills-vocal__text {
-        font-size: 28px;
+        font-size: 23px;
         padding-left: 50px;
         margin: 0 auto;
-        margin-top: 30px
+        margin-top: 0
     }
 
     .teachers-vocal__image img {
@@ -5237,6 +5253,46 @@ h6 {
     .header__menu.active {
         top: 0;
         width: 100vw
+    }
+
+    .section-vocal__title {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        margin-top: -50px;
+        font-size: 96px;
+        font-weight: 700;
+        padding-top: 68px;
+        margin-bottom: 86px
+    }
+
+    .section-piano__title {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        margin-top: -50px;
+        font-size: 96px;
+        font-weight: 700;
+        padding-top: 68px;
+        margin-bottom: 86px
+    }
+
+    .section-guitar__title {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        margin-top: -50px;
+        font-size: 96px;
+        font-weight: 700;
+        padding-top: 68px;
+        margin-bottom: 86px
+    }
+
+    .section-actor__title {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        margin-top: -50px;
+        font-size: 96px;
+        font-weight: 700;
+        padding-top: 68px;
+        margin-bottom: 86px
     }
 
     .header__menu.active .menu__list {
@@ -5984,8 +6040,10 @@ h6 {
 
     .skills-vocal__images img {
         padding-left: 20px;
+        width: 190px;
+        height: 190px;
         margin: 0 auto;
-        padding-top: 20px
+
     }
 
     .skills-vocal__skill {
@@ -5997,10 +6055,15 @@ h6 {
     }
 
     .skills-vocal__text {
-        font-size: 25px;
+        font-size: 16px;
         padding-left: 20px;
         margin: 0 auto;
-        margin-top: 30px
+        margin-top: 0
+    }
+
+    .skills-vocal__list {
+        padding-left: 30px;
+
     }
 
     .teachers-vocal__image img {
@@ -6734,6 +6797,7 @@ h6 {
         margin-left: auto;
         margin-right: auto;
         padding-left: 10px;
+        margin-top: 15px;
         padding-right: 0
     }
 
@@ -7033,11 +7097,27 @@ h6 {
         padding-bottom: 20px
     }
 
+    .skills-vocal__images img {
+        margin-left: 10px;
+        padding-left: 0;
+        width: 130px;
+        height: 130px;
+
+    }
+
+    .skills-vocal__discr {
+        margin-left: 0;
+    }
+
+    .skills-vocal__list {
+        padding-left: 10px;
+    }
+
     .skills-vocal__text {
-        font-size: 20px;
-        padding-left: 20px;
+        font-size: 12px;
+        padding-left: 10px;
         margin: 0 auto;
-        margin-top: 30px
+        margin-top: 0
     }
 
     .section-piano__title {
@@ -8006,7 +8086,15 @@ h6 {
     }
 
     .skills-vocal__text {
-        font-size: 16px
+        font-size: 10px
+    }
+
+    .skills-vocal__images img {
+        margin-left: 10px;
+        padding-left: 0;
+        width: 115px;
+        height: 115px;
+
     }
 
     .section-piano__title {
@@ -8169,8 +8257,6 @@ h6 {
         margin: 0 auto;
         max-width: 250px;
     }
-
-
 }
 
 
