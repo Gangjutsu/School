@@ -50,8 +50,8 @@ html {
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-
 }
+
 
 ::-webkit-button {
     color: #000;
@@ -552,14 +552,7 @@ h6 {
     justify-content: space-between
 }
 
-.section-course__cards {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between
-}
+
 
 .section-one__card {
     max-width: 306px;
@@ -1684,6 +1677,7 @@ h6 {
     text-align: center;
     line-height: 45px;
     margin-top: 39px;
+    margin-left: 30px;
     margin-bottom: 26px
 }
 
@@ -1694,28 +1688,60 @@ h6 {
 }
 
 .section-course .images-course {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 58px
 }
 
-.section-course .course-image img {
-    margin: 0 auto;
+.img-course:first-child {
+    margin-left: 121px;
+    margin-right: 0;
+}
+
+.img-course:nth-child(2) {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.img-course:nth-child(3) {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.img-course:last-child {
+    margin-left: 0;
+    margin-right: 98px;
+}
+
+.section-course__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: center
 }
 
 .section-course .course-card {
-    min-width: 313px;
+    margin-left: 15px;
+    max-width: 309px;
     background-color: #ffbe35;
+    min-height: 546px;
     border-radius: 20px;
     margin-bottom: 111px
 }
 
 .section-course .course-btn {
-    margin-left: 10px;
-    margin-right: 0;
+    display: inline-block;
+    font-family: 'Open Sans';
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    border-radius: 20px;
+    margin-left: 13px;
     font-size: 24px;
     font-weight: 700;
-    line-height: 32px;
-    padding: 13px 125px 13px 43px;
-    margin-top: 24px
+    line-height: 33px;
+    padding: 15px 44px;
 }
 
 .section-course li,
@@ -1725,8 +1751,7 @@ h6 {
 
 .course-image {
     max-width: 279px;
-    height: 203px;
-    padding-top: 0px;
+    padding: 0 15px;
 }
 
 .section-course .card__discription-list {
@@ -1736,7 +1761,7 @@ h6 {
 
 .section-course .course-discription {
     padding-bottom: 5px;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400
 }
 
@@ -2687,17 +2712,43 @@ h6 {
         position: relative;
     }
 
-    .section-one__card .course-card {
-        min-width: 282px;
-        margin-left: 15px;
-        position: relative;
+    .section-course .course-card {
+        min-height: 469px;
     }
-
-
 
     .section-course .course-title {
-        margin-top: 25px;
+        margin-top: 30px;
+        font-size: 17px;
     }
+
+    .course-image {
+        max-width: 232px;
+    }
+
+    .section-course .images-course {
+        justify-content: center;
+    }
+
+    .img-course:first-child {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .img-course:nth-child(2) {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .img-course:nth-child(3) {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .img-course:last-child {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
 
     .card__image {
         max-width: 279px;
@@ -3286,14 +3337,6 @@ h6 {
         justify-content: center;
     }
 
-    .section-one__card {
-        width: 280px;
-        margin-left: 15px;
-        position: relative;
-    }
-
-    .section-one__card .course-card {}
-
     .card__image {
         max-width: 220px;
         min-height: 240px;
@@ -3807,8 +3850,30 @@ h6 {
     }
 
     .section-course .images-course img {
-        width: 145px;
+        width: 150px;
     }
+
+    .img-course:first-child {
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+    .img-course:nth-child(2) {
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+    .img-course:nth-child(3) {
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+    .img-course:last-child {
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+
 }
 
 @media (max-width:993px) {
@@ -4284,6 +4349,57 @@ h6 {
         margin-left: auto;
         margin-right: auto
     }
+
+    .section-one__card {
+        width: 280px;
+        margin-left: 15px;
+        position: relative;
+    }
+
+    .section-course .course-card {
+        width: 286px;
+        margin-left: 35px;
+        margin-bottom: 35px;
+    }
+
+    .section-course .course-discription {
+        padding-left: 31px;
+    }
+
+    .section-course .course-btn {
+        margin-left: 31px;
+    }
+
+    .course-image {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .section-course__cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img-course:first-child {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .img-course:nth-child(2) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .img-course:nth-child(3) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .img-course:last-child {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
 }
 
 @media (max-width:767px) {
@@ -5019,7 +5135,60 @@ h6 {
     }
 
     .section-course .images-course img {
-        width: 90px;
+        width: 112px;
+    }
+
+    .section-course .course-card {
+        width: 225px;
+        min-height: 417px;
+        margin-left: 35px;
+        margin-bottom: 35px;
+    }
+
+    .section-course .course-title {
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+    }
+
+    .section-course .course-discription {
+        padding-left: 15px;
+        font-size: 15px;
+    }
+
+    .section-course .course-btn {
+        margin-left: 25px;
+    }
+
+    .course-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 200px;
+    }
+
+    .section-course__cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img-course:first-child {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .img-course:nth-child(2) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .img-course:nth-child(3) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .img-course:last-child {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
@@ -6006,6 +6175,79 @@ h6 {
     .section-teacher-nadia__stimulus {
         font-size: 22px
     }
+
+    .section-course .images-course {
+        margin-bottom: 10px;
+    }
+
+    .section-course .images-course img {
+        width: 93px;
+    }
+
+    .section-course .course-card {
+        width: 165px;
+        min-height: 302px;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 35px;
+    }
+
+    .section-course .course-title {
+        font-size: 11px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .section-course__title {
+        margin-left: 0;
+    }
+
+    .section-course .course-discription {
+        padding-left: 15px;
+        font-size: 10px;
+    }
+
+    .section-course .card__discription-list {
+        padding-top: 3px;
+    }
+
+
+    .section-course .course-btn {
+        font-size: 16px;
+        padding: 5px 30px;
+        margin-left: 25px;
+    }
+
+    .course-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 150px;
+    }
+
+    .section-course__cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img-course:first-child {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .img-course:nth-child(2) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .img-course:nth-child(3) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .img-course:last-child {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 @media (max-width:425px) {
@@ -6231,7 +6473,6 @@ h6 {
         padding-left: 8px;
         padding-right: 8px;
         padding-bottom: 10px;
-
         line-height: 25px
     }
 
@@ -6866,7 +7107,76 @@ h6 {
     }
 
     .section-course .images-course img {
-        width: 75px;
+        width: 70px;
+    }
+
+    .section-course .images-course {
+        margin-bottom: 10px;
+    }
+
+    .section-course .course-card {
+        width: 290px;
+        min-height: 440px;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 35px;
+    }
+
+    .section-course .course-title {
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .section-course__title {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .section-course .course-discription {
+        padding-left: 15px;
+        font-size: 18px;
+    }
+
+    .section-course .card__discription-list {
+        padding-top: 3px;
+    }
+
+    .section-course .course-btn {
+        font-size: 20px;
+        padding: 10px 40px;
+        margin-left: 25px;
+    }
+
+    .course-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 250px;
+    }
+
+    .section-course__cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img-course:first-child {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .img-course:nth-child(2) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .img-course:nth-child(3) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .img-course:last-child {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
@@ -7581,10 +7891,7 @@ h6 {
         padding: 17px 10px
     }
 
-    .section-course .course-image {
-        padding-left: 0;
-        padding-right: 0
-    }
+
 
     .contacts__content {
         display: -webkit-box;
@@ -7807,7 +8114,55 @@ h6 {
     .section-course .images-course img {
         width: 65px;
     }
+
+
+    .section-course .images-course {
+        margin-bottom: 10px;
+    }
+
+    .section-course .course-card {
+        width: 290px;
+        min-height: 440px;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 35px;
+    }
+
+    .section-course .course-title {
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .section-course__title {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .section-course .course-discription {
+        padding-left: 15px;
+        font-size: 18px;
+    }
+
+    .section-course .card__discription-list {
+        padding-top: 3px;
+    }
+
+    .section-course .course-btn {
+        font-size: 20px;
+        padding: 10px 40px;
+        margin-left: 25px;
+    }
+
+    .course-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 250px;
+    }
+
+
 }
+
 
 
 
