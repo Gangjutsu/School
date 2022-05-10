@@ -1744,6 +1744,16 @@ h6 {
     padding: 15px 44px;
 }
 
+.section-course .course-btn:hover {
+    background-color: #FFE86E;
+}
+
+.section-course .course-btn:active {
+    background-color: #BEBEBE;
+}
+
+
+
 .section-course li,
 .section-course ul {
     list-style: inside
@@ -5157,7 +5167,7 @@ h6 {
     }
 
     .section-course .course-btn {
-        margin-left: 25px;
+        margin-left: 23px;
     }
 
     .course-image {
@@ -6215,7 +6225,7 @@ h6 {
     .section-course .course-btn {
         font-size: 16px;
         padding: 5px 30px;
-        margin-left: 25px;
+        margin-left: 22px;
     }
 
     .course-image {
