@@ -2361,23 +2361,26 @@ h6 {
 
 .skills-guitar__text {
     color: #fff;
-    font-size: 19px;
+    font-size: 24px;
     font-weight: 400;
     line-height: 32.68px;
-    margin-left: 25px
 }
+
 
 .skills-guitar__list {
     color: #fff
 }
 
 .skills-guitar__discr {
-    margin-left: -25px
+    line-height: 0;
+    margin-top: 20px;
+    margin-left: 13px;
 }
 
 .skills-guitar__images img {
-    padding-left: 70px;
-    max-width: 100%
+    margin-left: 45px;
+    height: 250px;
+    width: 280px;
 }
 
 .teachers-guitar {
@@ -2490,12 +2493,15 @@ h6 {
     color: #fff;
     font-size: 24px;
     font-weight: 400;
-    line-height: 32.68px;
-    margin-left: 25px
+    line-height: 32px;
+
 }
 
 .skills-actor__discr {
-    margin-left: -25px
+    margin-top: 20px;
+    line-height: 0;
+    margin-left: 18px;
+
 }
 
 .skills-actor__list {
@@ -2503,9 +2509,11 @@ h6 {
 }
 
 .skills-actor__images img {
-    padding-left: 70px;
-    max-width: 100%
+    margin-left: 33px;
+    height: 250px;
+    width: 280px;
 }
+
 
 .teachers-actor {
     font-family: "Open Sans", sans-serif
@@ -3150,10 +3158,6 @@ h6 {
         margin: 0 auto
     }
 
-    .skills-guitar__images img {
-        padding-left: 40px
-    }
-
     .section-actor__content {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -3177,10 +3181,6 @@ h6 {
     .actor-content__text {
         text-align: center;
         margin: 0 auto
-    }
-
-    .skills-actor__images img {
-        padding-left: 40px
     }
 
     .section-teacher-nadia__snapshot img {
@@ -3826,19 +3826,28 @@ h6 {
     }
 
     .skills-guitar__text {
-        font-size: 14px
+        font-size: 20px;
+        line-height: 32px;
     }
 
     .skills-guitar__images img {
-        max-width: 100%
+        margin-left: 32px;
+        width: 230px;
+        height: 230px;
+
     }
 
     .skills-actor__text {
-        font-size: 14px
+        line-height: 28px;
+        font-size: 19px;
+
     }
 
     .skills-actor__images img {
-        max-width: 100%
+        margin-left: 32px;
+        width: 230px;
+        height: 230px;
+
     }
 
     .section-teacher-nadia__content {
@@ -4266,10 +4275,12 @@ h6 {
     }
 
     .skills-guitar__text {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+
         font-size: 28px;
-        padding-left: 10px;
-        margin: 0 auto;
-        margin-top: 30px
+
     }
 
     .skills-guitar__images {
@@ -4283,8 +4294,7 @@ h6 {
     }
 
     .skills-guitar__images img {
-        padding-left: 20px;
-        max-width: 100%
+        width: 283px;
     }
 
     .teachers-guitar__image img {
@@ -4304,10 +4314,15 @@ h6 {
     }
 
     .skills-actor__text {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-right: 0;
         font-size: 28px;
-        padding-left: 10px;
-        margin: 0 auto;
-        margin-top: 30px
+    }
+
+    .skills-actor__discr {
+        margin-left: 9px;
     }
 
     .skills-actor__images {
@@ -4321,8 +4336,7 @@ h6 {
     }
 
     .skills-actor__images img {
-        padding-left: 20px;
-        max-width: 100%
+        width: 283px;
     }
 
     .teachers-actor__image img {
@@ -5051,9 +5065,10 @@ h6 {
     }
 
     .skills-guitar__images img {
+        width: 230px;
+        height: 230px;
         padding-left: 20px;
         margin: 0 auto;
-        padding-top: 20px
     }
 
     .skills-guitar__skill {
@@ -5065,10 +5080,9 @@ h6 {
     }
 
     .skills-guitar__text {
-        font-size: 28px;
+        font-size: 23px;
         padding-left: 50px;
         margin: 0 auto;
-        margin-top: 30px
     }
 
     .teachers-guitar__image img {
@@ -5105,10 +5119,12 @@ h6 {
     }
 
     .skills-actor__images img {
+        width: 230px;
+        height: 230px;
         padding-left: 20px;
         margin: 0 auto;
-        padding-top: 20px
     }
+
 
     .skills-actor__skill {
         display: -webkit-box;
@@ -5119,11 +5135,16 @@ h6 {
     }
 
     .skills-actor__text {
-        font-size: 28px;
+        font-size: 23px;
         padding-left: 50px;
         margin: 0 auto;
-        margin-top: 30px
+        margin-top: 0;
     }
+
+    .skills-actor__discr {
+        margin-left: 14px;
+    }
+
 
     .teachers-actor__image img {
         max-width: 100%;
@@ -6145,6 +6166,10 @@ h6 {
         font-size: 66px
     }
 
+    .skills-guitar__discr {
+        margin-left: -16px;
+    }
+
     .guitar-content__image img {
         max-width: 100%
     }
@@ -6167,8 +6192,9 @@ h6 {
 
     .skills-guitar__images img {
         padding-left: 20px;
+        width: 190px;
+        height: 190px;
         margin: 0 auto;
-        padding-top: 20px
     }
 
     .skills-guitar__skill {
@@ -6180,10 +6206,15 @@ h6 {
     }
 
     .skills-guitar__text {
-        font-size: 23px;
+        font-size: 16px;
         padding-left: 20px;
         margin: 0 auto;
-        margin-top: 30px
+        margin-top: 0;
+    }
+
+    .skills-guitar__list {
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .teachers-guitar__image img {
@@ -6221,8 +6252,15 @@ h6 {
 
     .skills-actor__images img {
         padding-left: 20px;
+        width: 190px;
+        height: 190px;
         margin: 0 auto;
-        padding-top: 20px
+    }
+
+    .skills-actor__discr {
+        margin-top: 20px;
+        line-height: 0;
+        margin-left: 13px;
     }
 
     .skills-actor__skill {
@@ -6233,11 +6271,15 @@ h6 {
         flex-wrap: wrap
     }
 
+    .skills-actor__list {
+        padding-left: 30px;
+    }
+
     .skills-actor__text {
-        font-size: 23px;
-        padding-left: 20px;
+        font-size: 16px;
+        padding-left: 0;
         margin: 0 auto;
-        margin-top: 30px
+
     }
 
     .skills-actor__title {
@@ -7156,6 +7198,43 @@ h6 {
     .skills-piano__discr {
         font-size: 12px;
         margin-left: -10px;
+    }
+
+    .skills-guitar__images img {
+        margin-left: 10px;
+        padding-left: 0;
+        width: 130px;
+        height: 130px;
+    }
+
+    .skills-guitar__text {
+        font-size: 12px;
+        padding-left: 10px;
+        margin: 0 auto;
+        margin-top: 0;
+    }
+
+    .skills-actor__images img {
+        margin-left: 10px;
+        padding-left: 0;
+        width: 130px;
+        height: 130px;
+
+    }
+
+    .skills-actor__discr {
+        margin-left: -14px;
+    }
+
+    .skills-actor__list {
+        padding-left: 0;
+    }
+
+    .skills-actor__text {
+        font-size: 12px;
+        padding-left: 10px;
+        margin: 0 auto;
+        margin-top: 0;
     }
 
     .section-teacher-nadia__content {
@@ -8141,8 +8220,27 @@ h6 {
         font-weight: 900
     }
 
+    .skills-guitar__images img {
+        margin-left: 10px;
+        padding-left: 0;
+        width: 115px;
+        height: 115px;
+    }
+
     .skills-guitar__text {
-        font-size: 16px
+        font-size: 10px;
+        padding-left: 10px;
+        margin: 0 auto;
+        margin-top: 0;
+        line-height: 20px;
+    }
+
+    .skills-guitar__discr {
+        margin-left: -23px;
+    }
+
+    .skills-guitar__list {
+        margin-left: -12px;
     }
 
     .section-actor__title {
@@ -8151,7 +8249,24 @@ h6 {
     }
 
     .skills-actor__text {
-        font-size: 16px
+        font-size: 10px;
+    }
+
+    .skills-actor__images img {
+        margin-left: 10px;
+        padding-left: 0;
+        width: 115px;
+        height: 115px;
+    }
+
+    .skills-actor__list {
+        margin-left: -12px;
+        line-height: 20px;
+
+    }
+
+    .skills-actor__discr {
+        margin-left: -22px;
     }
 
     .section-teacher-nadia__content {
