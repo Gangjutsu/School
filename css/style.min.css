@@ -3815,13 +3815,14 @@ h6 {
     }
 
     .skills-piano__text {
-        font-size: 14px
+        font-size: 17px;
+        line-height: 28px;
     }
 
     .skills-piano__images img {
-        margin-left: 70px;
-        height: 250px;
-        width: 280px;
+        width: 230px;
+        height: 230px;
+        margin-left: 32px;
     }
 
     .skills-guitar__text {
@@ -4228,10 +4229,10 @@ h6 {
     }
 
     .skills-piano__text {
-        font-size: 28px;
-        padding-left: 10px;
-        margin: 0 auto;
-        margin-top: 30px
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        font-size: 24px;
     }
 
     .skills-piano__images {
@@ -4245,8 +4246,7 @@ h6 {
     }
 
     .skills-piano__images img {
-        padding-left: 20px;
-        max-width: 100%
+        width: 283px
     }
 
     .teachers-piano__image img {
@@ -4992,9 +4992,14 @@ h6 {
     }
 
     .skills-piano__images img {
+        width: 240px;
+        height: auto;
         padding-left: 20px;
         margin: 0 auto;
-        padding-top: 20px
+    }
+
+    .skills-piano__discr {
+        margin-top: -7px;
     }
 
     .skills-piano__skill {
@@ -5006,7 +5011,7 @@ h6 {
     }
 
     .skills-piano__text {
-        font-size: 28px;
+        font-size: 20px;
         padding-left: 50px;
         margin: 0 auto;
         margin-top: 30px
@@ -6100,10 +6105,12 @@ h6 {
     }
 
     .skills-piano__images img {
-        padding-left: 20px;
-        margin: 0 auto;
-        padding-top: 20px
+        margin-left: 10px;
+        padding-left: 0;
+        width: 130px;
+        height: 130px;
     }
+
 
     .skills-piano__skill {
         display: -webkit-box;
@@ -6113,11 +6120,16 @@ h6 {
         flex-wrap: wrap
     }
 
+    .skills-piano__discr {
+        margin-top: 10px;
+        margin-left: 27px;
+    }
+
     .skills-piano__text {
-        font-size: 25px;
-        padding-left: 20px;
+        font-size: 12px;
+        padding-left: 10px;
         margin: 0 auto;
-        margin-top: 30px
+        margin-top: 0
     }
 
     .teachers-piano__image img {
@@ -7130,10 +7142,20 @@ h6 {
     }
 
     .skills-piano__text {
-        font-size: 20px;
-        padding-left: 20px;
-        margin: 0 auto;
-        margin-top: 30px
+        font-size: 11px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+    }
+
+    .skills-piano__list {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .skills-piano__discr {
+        font-size: 12px;
+        margin-left: -10px;
     }
 
     .section-teacher-nadia__content {
@@ -8097,13 +8119,21 @@ h6 {
 
     }
 
+    .skills-piano__images img {
+        margin-left: 10px;
+        padding-left: 0;
+        width: 115px;
+        height: 115px;
+
+    }
+
     .section-piano__title {
         font-size: 35px;
         font-weight: 900
     }
 
     .skills-piano__text {
-        font-size: 16px
+        font-size: 10px
     }
 
     .section-guitar__title {
