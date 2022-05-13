@@ -86,7 +86,7 @@ html {
 
 button {
     color: #000;
-    border: none;
+    border-radius: none;
 }
 
 
@@ -99,17 +99,20 @@ input,
 textarea {
     -webkit-appearance: none;
     border-radius: 0;
+    border: none;
     -webkit-border-radius: 0;
 }
 
 :-webkit-input {
     background: none;
     border: none;
+    border-radius: 0;
 }
 
 ::-webkit-input {
     background: none;
     border: none;
+    border-radius: 0;
 
 
 }
@@ -117,11 +120,14 @@ textarea {
 ::placeholder {
     background: none;
     border: none;
+    border-radius: 0;
 
 }
 
+
 input {
     border: none;
+    border-radius: 0;
     background: none;
     border-bottom: 1px solid #000;
 
@@ -1986,6 +1992,7 @@ h6 {
     font-weight: 700;
     padding: 17px 47px;
     border-radius: 20px;
+    border: none;
     -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .25);
     box-shadow: 0 1px 4px rgba(0, 0, 0, .25);
     cursor: pointer
