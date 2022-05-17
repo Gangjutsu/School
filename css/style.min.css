@@ -125,14 +125,6 @@ textarea {
     margin-top: -7px;
 }
 
-::-webkit-::placeholder {
-    margin-top: -7px;
-}
-
-:-webkit-::placeholder {
-    margin-top: -7px;
-}
-
 ::placeholder {
     background: none;
     border: none;
@@ -6036,6 +6028,10 @@ h6 {
         order: -1;
         margin: 0 auto;
         margin-bottom: 120px
+    }
+
+    .content-form__title {
+        margin-top: 30px;
     }
 
     .content-form .content-form__form input[type=text] {
