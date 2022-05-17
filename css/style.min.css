@@ -120,7 +120,7 @@ textarea {
 }
 
 ::-webkit-input {
-
+    margin: 0;
     background: none;
     border: none;
     border-radius: 0;
@@ -132,7 +132,7 @@ textarea {
     background: none;
     border: none;
     border-radius: 0;
-    margin: 0;
+
 }
 
 
