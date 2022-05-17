@@ -54,12 +54,14 @@ html {
 
 
 ::-webkit-button {
+    margin: 0;
     color: #000;
     border: none;
 
 }
 
 :-moz-button {
+    margin: 0;
     color: #000;
     border: none;
     opacity: 1;
@@ -73,12 +75,14 @@ html {
 }
 
 :-ms-button {
+    margin: 0;
     border: none;
     color: #000;
 
 }
 
 ::-ms-button {
+    margin: 0;
     border: none;
     color: #000;
 
@@ -87,12 +91,14 @@ html {
 button {
     color: #000;
     border-radius: none;
+    margin: 0;
 }
 
 
 button,
 textarea {
     font-family: inherit;
+    margin: 0;
 }
 
 input,
