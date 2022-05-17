@@ -125,14 +125,19 @@ textarea {
     margin-top: -7px;
 }
 
+::-webkit-::placeholder {
+    margin-top: -7px;
+}
 
+:-webkit-::placeholder {
+    margin-top: -7px;
+}
 
 ::placeholder {
     background: none;
     border: none;
     border-radius: 0;
     margin: 0;
-
 }
 
 
