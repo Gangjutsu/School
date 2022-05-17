@@ -109,6 +109,14 @@ textarea {
     -webkit-border-radius: 0;
 }
 
+::-webkit-input[type=submit] {
+    margin-top: -7px;
+}
+
+:-webkit-input[type=submit] {
+    margin-top: -7px;
+}
+
 :-webkit-input {
     background: none;
     border: none;
@@ -123,13 +131,7 @@ textarea {
     margin: 0;
 }
 
-::-webkit-input[type=submit] {
-    margin-top: -7px;
-}
 
-:-webkit-input[type=submit] {
-    margin-top: -7px;
-}
 
 ::placeholder {
     background: none;
