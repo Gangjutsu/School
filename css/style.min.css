@@ -121,8 +121,14 @@ textarea {
     border: none;
     border-radius: 0;
     margin: 0;
+}
 
+::-webkit-input[type=submit] {
+    margin-top: -7px;
+}
 
+:-webkit-input[type=submit] {
+    margin-top: -7px;
 }
 
 ::placeholder {
@@ -7081,6 +7087,7 @@ h6 {
     }
 
     .content-form__title {
+        margin-top: 0;
         font-size: 29px
     }
 
@@ -7393,8 +7400,8 @@ h6 {
         width: 50px;
         height: 50px;
         position: relative;
-        top: 20px;
-        right: 4px;
+        top: 24px;
+        right: 0px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -7487,7 +7494,7 @@ h6 {
     .header .header-btn {
         position: relative;
         font-size: 18px;
-        right: 5px;
+        right: 9px;
         top: -55px;
         margin-right: 10px;
         margin-top: 65px
@@ -7498,13 +7505,14 @@ h6 {
     }
 
     .header__logo {
+        left: 0;
         height: 100px;
         top: -55px
     }
 
 
     .header__logo img {
-        width: 100px;
+        width: 79px;
         height: 100px;
 
     }
@@ -8147,6 +8155,7 @@ h6 {
     }
 
     .content-form__title {
+        margin-top: 0;
         font-size: 25px
     }
 
