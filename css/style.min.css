@@ -112,33 +112,35 @@ textarea {
 
 
 :-webkit-input {
+    -webkit-appearance: none;
     background: none;
     border: none;
     border-radius: 0;
-    margin-top: -7px;
 }
 
 ::-webkit-input {
+    -webkit-appearance: none;
     background: none;
     border: none;
     border-radius: 0;
-    margin-top: -7px;
 }
 
 ::placeholder {
+    -webkit-appearance: none;
     background: none;
     border: none;
     border-radius: 0;
-    margin: 0;
+
 }
 
 
 input {
+    -webkit-appearance: none;
     border: none;
     border-radius: 0;
     background: none;
     border-bottom: 1px solid #000;
-    margin: 0;
+
 }
 
 input::-ms-clear {
