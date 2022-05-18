@@ -110,7 +110,13 @@ textarea {
 
 }
 
+:-webkit-textarea {
+    margin-top: -100px;
+}
 
+::-webkit-textarea {
+    margin-top: -100px;
+}
 
 :-webkit-input {
     background: none;
