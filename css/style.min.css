@@ -141,7 +141,7 @@ input {
     border-radius: 0;
     background: none;
     border-bottom: 1px solid #000;
-    margin-top: -15px;
+    margin-top: -5px;
 }
 
 input::-ms-clear {
