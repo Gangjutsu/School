@@ -113,10 +113,10 @@ textarea {
 
 
 :-webkit-input {
-    margin-top: -100px;
     background: none;
     border: none;
     border-radius: 0;
+    margin-top: -100px;
 
 }
 
@@ -132,6 +132,7 @@ textarea {
     background: none;
     border: none;
     border-radius: 0;
+    margin-top: -100px;
 
 
 }
